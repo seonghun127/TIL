@@ -46,9 +46,9 @@
 
   - `state`를 사용하려면, 반드시 **class Component**로 작성되어야 한다.
 
-  - 값을 변경하려면, 반드시 **`setState()`**를 사용해야 한다.
+  - 값을 변경하려면, 반드시 `setState()`를 사용해야 한다.
 
-    *→ 만약 **setState()**를 사용하지 않는 다면?*
+    → 만약 `setState()`를 사용하지 않는 다면?
 
     *: Life cycle을  타지 않기 때문에 life cycle method들을 사용 ❌*
 
@@ -126,3 +126,24 @@ class GroceryListItem extends React.Component {
   }
 }
 ```
+
+
+
+### JSX
+
+- 리액트 컴포넌트를 화면에 보여주기 위해 사용하는 javascript의 확장 문법
+- JSX로 코드를 작성하면 babel이 원래 코드로 바꿔줌
+
+**규칙**
+
+1. 반드시 하나의 엘리먼트로 감싸야 한다.
+
+2. 자바스크립트 코드를 작성할 땐 `{ }` 안에 작성한다.
+
+3. `{ }`안이라 해도, if문을 사용할 수 없기 때문에 삼항연산자 혹은 IIFE 사용
+
+4. 엘리먼트의 클래스 이름을 적용할 때, `className`이라고 써야 한다.
+
+   (ES6의 `class`와 헷갈리지 않기 위함)
+
+   ⇒ `<div className='app-container'>Hello</div>`
