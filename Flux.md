@@ -66,7 +66,7 @@
 
 ### 흐름
 
-![https://haruair.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png]
+![](https://haruair.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
 
 - Action creator는 라이브러리에서 제공하는 도움 메소드로 메소드 파라미터에서 action을 생성하고 type 을 설정하거나 dispatcher에게 제공하는 역할
 - 모든 action은 store가 dispatcher에 등록해둔 callback을 통해 모든 store에 전송
