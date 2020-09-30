@@ -1,6 +1,7 @@
 ![자바스크립트 실행환경](https://miro.medium.com/max/700/1*4lHHyfEhVB0LnQ3HlhSs8g.png)
 
-출처: https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+출처: https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf  
+참고영상: https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
 #### 자바스크립트
 
